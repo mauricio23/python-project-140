@@ -2,9 +2,11 @@ import random
 from brain_games.cli import welcome_user 
 
 def par_impar(name):
+
     print('Answer "yes" if the number is even, otherwise answer "no"')
     ciclos = 3
-    
+    print("hola")
+
     for i in range(ciclos):
         numero = random.randint(2,10)
         print("Question: "+ str(numero))
@@ -14,9 +16,7 @@ def par_impar(name):
         if numero % 2 == 0:
             correcta = "yes"
         else: correcta = "no" 
-        print(str(i))
-        print(correcta)
-        print(respuesta)
+       
         if respuesta == correcta:
             print("Correct!")
         else: 
@@ -25,7 +25,7 @@ def par_impar(name):
             exit()
 
         if i == 2:
-            print(f"Congratulations, {name}!")
+            print(f"Congratulations,{name}!")
 
 
 def main():
