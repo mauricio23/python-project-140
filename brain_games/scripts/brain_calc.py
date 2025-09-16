@@ -11,17 +11,20 @@ def calc(name):
     for i in range(ciclos):
         number1 = random.randint(2,20)
         number2 = random.randint(2,20)
-        print("Question: "+ str(number1))
+        operation = random.choice(simbol)
+        print("Question: "+ str(number1) + " "+str(operation)+ " "+str(number2))
         respuesta = input("Your answer: ").lower()
-        correcta = ""
+        resultado_correcto = ""
         if simbol == '+':
             resultado_correcto = number1 + number2
         elif simbol == '-':
             resultado_correcto = number1 - number2
         elif simbol == '*':
             resultado_correcto = number1 * number2
+        if respuesta == resultado_correcto:
+             print("Correct!")
         else: 
-            print(f"{respuesta} is wrong answer ;(. Correct answer was {correcta}.")
+            print(f"{respuesta} is wrong answer ;(. Correct answer was {resultado_correcto}.")
             print(f"Let's try again, {name}!")
             exit()
 
@@ -33,7 +36,7 @@ def main():
 
     print("Welcome to the Brain Games!")
     name = welcome_user()
-    par_impar(name)
+    calc(name)
 
 
 if __name__=="__main__":
