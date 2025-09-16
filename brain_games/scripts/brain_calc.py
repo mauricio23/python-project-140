@@ -5,18 +5,15 @@ def calc(name):
 
     print('What is the result of the expression?"')
     ciclos = 3
-    print("hola")
     simbol = ['+', '-', '*']
 
     for i in range(ciclos):
-        print(i)
         number1 = random.randint(2,20)
         number2 = random.randint(2,20)
         operation = random.choice(simbol)
         print("Question: "+ str(number1) + " "+str(operation)+ " "+str(number2))
         respuesta = input("Your answer: ").lower()
         resultado_correcto = 0
-        print(operation)
         if operation == '+':
             resultado_correcto = number1 + number2
         if operation == '-':
