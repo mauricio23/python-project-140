@@ -9,22 +9,25 @@ def calc(name):
     simbol = ['+', '-', '*']
 
     for i in range(ciclos):
+        print(i)
         number1 = random.randint(2,20)
         number2 = random.randint(2,20)
         operation = random.choice(simbol)
         print("Question: "+ str(number1) + " "+str(operation)+ " "+str(number2))
         respuesta = input("Your answer: ").lower()
-        resultado_correcto = ""
-        if simbol == '+':
+        resultado_correcto = 0
+        print(operation)
+        if operation == '+':
             resultado_correcto = number1 + number2
-        elif simbol == '-':
+        if operation == '-':
             resultado_correcto = number1 - number2
-        elif simbol == '*':
+        if operation == '*':
             resultado_correcto = number1 * number2
-        if respuesta == resultado_correcto:
+            
+        if respuesta == str(resultado_correcto):
              print("Correct!")
         else: 
-            print(f"{respuesta} is wrong answer ;(. Correct answer was {resultado_correcto}.")
+            print(f"{respuesta} is wrong answer ;(. Correct answer was {str(resultado_correcto)}.")
             print(f"Let's try again, {name}!")
             exit()
 
