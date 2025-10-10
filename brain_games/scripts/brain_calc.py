@@ -9,16 +9,20 @@ def calc(name):
     simbol = ['+', '-', '*']
 
     for i in range(ciclos):
-        number1 = random.randint(2,20)
-        number2 = random.randint(2,20)
+    
+        number1 = random.randint(2, 20)
+        number2 = random.randint(2, 20)
         operation = random.choice(simbol)
-        print("Question: "+ str(number1) + " "+str(operation)+ " "+str(number2))
+        print("Question: " + str(number1) + " " + str(operation) + " " + str(number2))
         respuesta = input("Your answer: ").lower()
         resultado_correcto = 0
+
         if operation == '+':
             resultado_correcto = number1 + number2
+
         if operation == '-':
             resultado_correcto = number1 - number2
+
         if operation == '*':
             resultado_correcto = number1 * number2
             
@@ -40,6 +44,5 @@ def main():
     calc(name)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main() 
-    
