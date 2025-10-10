@@ -28,6 +28,7 @@ def calc(name):
             
         if respuesta == str(resultado_correcto):
              print("Correct!")
+             
         else: 
             print(f"{respuesta} is wrong answer ;(. Correct answer was {str(resultado_correcto)}.")
             print(f"Let's try again, {name}!")

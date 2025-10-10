@@ -16,8 +16,9 @@ def par_impar(name):
 
         if numero % 2 == 0:
             correcta = "yes"
-        else: correcta = "no" 
-       
+        else: 
+            correcta = "no"
+
         if respuesta == correcta:
             print("Correct!")
         else: 

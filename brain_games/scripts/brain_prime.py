@@ -10,6 +10,7 @@ def es_primo(n):
             return False
     return True
 
+
 def prime(name):
 
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
