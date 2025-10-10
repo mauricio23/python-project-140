@@ -29,7 +29,7 @@ def calc(name):
             exit()
 
         if i == 2:
-            print(f"Congratulations,{name}!")
+            print(f"Congratulations, {name}!")
 
 
 def main():
