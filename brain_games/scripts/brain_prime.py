@@ -1,6 +1,7 @@
 import random
 from brain_games.cli import welcome_user 
 
+
 def es_primo(n):
     if n < 2:
         return False
@@ -37,4 +38,5 @@ def main():
 
 
 if __name__=="__main__":
-    main() 
+    main()
+ 

@@ -1,6 +1,7 @@
 import random
 from brain_games.cli import welcome_user 
 
+
 def generar_progresion(a1, d, n):
   return [a1 + i * d for i in range(n)]
 
@@ -45,4 +46,5 @@ def main():
 
 
 if __name__=="__main__":
-    main() 
+    main()
+ 

@@ -2,6 +2,7 @@ import random
 import math
 from brain_games.cli import welcome_user 
 
+
 def mcd(name):
 
     print('Find the greatest common divisor of given numbers"')
@@ -33,4 +34,5 @@ def main():
 
 
 if __name__=="__main__":
-    main() 
+    main()
+ 

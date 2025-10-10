@@ -1,6 +1,7 @@
 import random
 from brain_games.cli import welcome_user 
 
+
 def par_impar(name):
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
