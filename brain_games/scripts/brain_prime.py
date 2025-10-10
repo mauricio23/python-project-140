@@ -15,10 +15,11 @@ def prime(name):
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     ciclos = 3
     for i in range(ciclos):
-        number1 = random.randint(2,20)
-        print("Question: "+ str(number1))
+        number1 = random.randint(2, 20)
+        print("Question: " + str(number1))
         respuesta = input("Your answer: ").lower()
-        resultado_correcto = "yes" if es_primo(number1) else "no"
+        resultado_correcto = "yes" if es_primo(number1) else "no" 
+
         if respuesta == resultado_correcto:
              print("Correct!")
         else: 
@@ -40,6 +41,6 @@ def main():
     prime(name)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
  

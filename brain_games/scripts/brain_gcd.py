@@ -9,9 +9,9 @@ def mcd(name):
     ciclos = 3
  
     for i in range(ciclos):
-        number1 = random.randint(2,20)
-        number2 = random.randint(2,20)
-        print("Question: "+ str(number1) + " " +str(number2))
+        number1 = random.randint(2, 20)
+        number2 = random.randint(2, 20)
+        print("Question: " + str(number1) + " " + str(number2))
         respuesta = input("Your answer: ").lower()
         resultado_correcto = math.gcd(number1, number2)
         
@@ -36,6 +36,6 @@ def main():
     mcd(name)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
  

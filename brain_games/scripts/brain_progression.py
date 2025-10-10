@@ -48,6 +48,6 @@ def main():
     juego_aritmetico(name)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main()
  

@@ -9,8 +9,8 @@ def par_impar(name):
     print("hola")
 
     for i in range(ciclos):
-        numero = random.randint(2,10)
-        print("Question: "+ str(numero))
+        numero = random.randint(2, 10)
+        print("Question: " + str(numero))
         respuesta = input("Your answer: ").lower()
         correcta = ""
 
@@ -39,5 +39,5 @@ def main():
     par_impar(name)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     main() 
