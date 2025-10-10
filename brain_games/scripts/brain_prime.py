@@ -22,7 +22,10 @@ def prime(name):
         if respuesta == resultado_correcto:
              print("Correct!")
         else: 
-            print(f"{respuesta} is wrong answer ;(. Correct answer was {str(resultado_correcto)}.")
+            print((
+            f"'{respuesta}' is wrong answer ;(. "
+            f"Correct answer was '{resultado_correcto}'."
+            ))
             print(f"Let's try again, {name}!")
             exit()
 

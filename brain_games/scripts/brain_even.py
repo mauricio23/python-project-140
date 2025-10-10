@@ -21,7 +21,10 @@ def par_impar(name):
         if respuesta == correcta:
             print("Correct!")
         else: 
-            print(f"{respuesta} is wrong answer ;(. Correct answer was {correcta}.")
+            print((
+            f"'{respuesta}' is wrong answer ;(. "
+            f"Correct answer was '{correcta}'."
+            ))
             print(f"Let's try again, {name}!")
             exit()
 

@@ -30,7 +30,10 @@ def juego_aritmetico(name):
         if respuesta == str(respuesta_correcta):
              print("Correct!")
         else: 
-            print(f"{respuesta} is wrong answer ;(. Correct answer was {str(respuesta_correcta)}.")
+            print((
+            f"'{respuesta}' is wrong answer ;(. "
+            f"Correct answer was '{respuesta_correcta}'."
+            ))
             print(f"Let's try again, {name}!")
             exit()
 
