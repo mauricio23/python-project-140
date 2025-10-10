@@ -11,7 +11,7 @@ def es_primo(n):
 
 def prime(name):
 
-    print('Answer "yes" if given number is prime. Otherwise answer "no"')
+    print('Answer "yes" if given number is prime. Otherwise answer "no".')
     ciclos = 3
     for i in range(ciclos):
         number1 = random.randint(2,20)
