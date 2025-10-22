@@ -22,3 +22,5 @@ brain_even :  https://asciinema.org/a/a1neyEPJIsFj1wcCcD8GxUJOC
 brain_calc: https://asciinema.org/a/QC35bksh7mvHfP9D4NdYkgsZP
 brain_progression:   https://asciinema.org/a/6CbQ1KsB0rrWv614j5FgoR1ac
 brain_games: https://asciinema.org/a/aABZ7r97uXH9l3vOC6rDblOGY
+brain_gcd: https://asciinema.org/a/JAXjfLu2dyTDE7zNJZQtRiAbD
+brain_prime:  https://asciinema.org/a/KalxNSJR6MLvO1CeM5P8bs7iM
