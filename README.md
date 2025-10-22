@@ -3,6 +3,11 @@
 
 [![Maintainability](https://qlty.sh/gh/mauricio23/projects/python-project-140/maintainability.svg)](https://qlty.sh/gh/mauricio23/projects/python-project-140)
 
+Descripción
+
+Este proyecto emplea los distintos temas vistos durante el primer módulo, como la definición de funciones y el uso de operadores aritméticos que nos ayudan a resolver problemas lógicos.
+Además, se practica la utilización de ciclos y condiciones, los cuales nos permiten establecer ciertos criterios o parámetros que determinan la respuesta final de un algoritmo.
+
 prueba 
 
 instrucciones para ejecutar el codigo
@@ -15,3 +20,5 @@ pip install -e .
 grabaciones ascinema
 brain_even :  https://asciinema.org/a/a1neyEPJIsFj1wcCcD8GxUJOC
 brain_calc: https://asciinema.org/a/QC35bksh7mvHfP9D4NdYkgsZP
+brain_progression:   https://asciinema.org/a/6CbQ1KsB0rrWv614j5FgoR1ac
+brain_games: https://asciinema.org/a/aABZ7r97uXH9l3vOC6rDblOGY
