@@ -37,7 +37,6 @@ def prime(name):
 
 def main():
 
-    print("Welcome to the Brain Games!")
     name = welcome_user()
     prime(name)
 

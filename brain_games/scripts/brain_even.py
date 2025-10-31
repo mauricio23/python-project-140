@@ -6,7 +6,6 @@ def par_impar(name):
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
     ciclos = 3
-    print("hola")
 
     for i in range(ciclos):
         numero = random.randint(2, 10)
@@ -35,7 +34,6 @@ def par_impar(name):
 
 def main():
 
-    print("Welcome to the Brain Games!")
     name = welcome_user()
     par_impar(name)
 

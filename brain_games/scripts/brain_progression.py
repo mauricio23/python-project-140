@@ -5,9 +5,10 @@ from brain_games.cli import welcome_user
 def generar_progresion(a1, d, n):
   return [a1 + i * d for i in range(n)]
 
+
 def juego_aritmetico(name):
 
-    print('What number is missing in the progression?"')
+    print('What number is missing in the progression?')
     ciclos = 3
 
     for i in range(ciclos):
@@ -43,7 +44,6 @@ def juego_aritmetico(name):
 
 def main():
 
-    print("Welcome to the Brain Games!")
     name = welcome_user()
     juego_aritmetico(name)
 
