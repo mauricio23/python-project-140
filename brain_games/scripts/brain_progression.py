@@ -27,7 +27,6 @@ def juego_aritmetico(name):
         print("Question: " + " ".join(map(str, progresion)))
         respuesta = input("Your answer: ").lower()
         
-
         if respuesta == str(respuesta_correcta):
             print("Correct!")
         else: 
