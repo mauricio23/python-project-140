@@ -5,7 +5,7 @@ from brain_games.cli import welcome_user
 
 def mcd(name):
 
-    print('Find the greatest common divisor of given numbers')
+    print('Find the greatest common divisor of given numbers.')
     ciclos = 3
  
     for i in range(ciclos):
