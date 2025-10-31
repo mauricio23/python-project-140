@@ -9,11 +9,14 @@ def calc(name):
     simbol = ['+', '-', '*']
 
     for i in range(ciclos):
-    
+
         number1 = random.randint(2, 20)
         number2 = random.randint(2, 20)
         operation = random.choice(simbol)
-        print("Question: " + str(number1) + " " + str(operation) + " " + str(number2))
+        print((
+            "Question: " + str(number1) + " " + 
+            str(operation) + " " + str(number2)
+        ))
         respuesta = input("Your answer: ").lower()
         resultado_correcto = 0
 
@@ -25,12 +28,15 @@ def calc(name):
 
         if operation == '*':
             resultado_correcto = number1 * number2
-            
+
         if respuesta == str(resultado_correcto):
-             print("Correct!")
-             
+            print("Correct!")
+
         else: 
-            print(f"{respuesta} is wrong answer ;(. Correct answer was {str(resultado_correcto)}.")
+            print((
+                f"{respuesta} is wrong answer ;(." 
+                f"Correct answer was {str(resultado_correcto)}."
+                ))
             print(f"Let's try again, {name}!")
             exit()
 

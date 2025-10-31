@@ -22,7 +22,7 @@ def prime(name):
         resultado_correcto = "yes" if es_primo(number1) else "no" 
 
         if respuesta == resultado_correcto:
-             print("Correct!")
+            print("Correct!")
         else: 
             print((
             f"'{respuesta}' is wrong answer ;(. "
@@ -43,4 +43,3 @@ def main():
 
 if __name__ == "__main__":
     main()
- 

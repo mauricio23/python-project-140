@@ -3,7 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def generar_progresion(a1, d, n):
-  return [a1 + i * d for i in range(n)]
+    return [a1 + i * d for i in range(n)]
 
 
 def juego_aritmetico(name):
@@ -24,12 +24,12 @@ def juego_aritmetico(name):
 
         # Reemplazar por ".."
         progresion[pos] = ".."
-        print("Question: "+ " ".join(map(str, progresion)))
+        print("Question: " + " ".join(map(str, progresion)))
         respuesta = input("Your answer: ").lower()
         
-       
+
         if respuesta == str(respuesta_correcta):
-             print("Correct!")
+            print("Correct!")
         else: 
             print((
             f"'{respuesta}' is wrong answer ;(. "
@@ -50,4 +50,3 @@ def main():
 
 if __name__ == "__main__":
     main()
- 
